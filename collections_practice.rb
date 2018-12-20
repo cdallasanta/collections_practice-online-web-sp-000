@@ -14,10 +14,10 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements(array, pos1, pos2)
-  temp = array[pos1]
-  array[pos1] = array[pos2]
-  array[pos2] = temp
+def swap_elements(array)
+  temp = array[1]
+  array[1] = array[2]
+  array[2] = temp
   array
 end
 
