@@ -26,4 +26,14 @@ def swap_elements(array, pos1, pos2)
 end
 
 def reverse_array(array)
-  
+  array.reverse
+end
+
+def kesha_maker(array)
+  newArr = []
+  array.each do |item|
+    item[2] = "$"
+    newArr << item
+  end
+  newArr
+end
