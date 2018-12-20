@@ -43,3 +43,9 @@ def find_a(array)
     item.start_with?("a")
   end
 end
+
+def add_s(array)
+  array.map do |item|
+    item << "s" if item != array[1]
+  end
+end
