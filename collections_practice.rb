@@ -40,6 +40,14 @@ def find_a(array)
   end
 end
 
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum += num
+  end
+  num
+end
+
 def add_s(array)
   array.map do |item|
     if item != array[1]
