@@ -4,18 +4,14 @@ end
 
 def sort_array_desc(array)
   array.sort do |a, b|
-    if a == b
-      0
-    elsif a < b
-      1
-    else a > b
-      -1
-    end
+    b <=> a
   end
 end
 
 def sort_array_char_count(array)
-  array.map {|item| item.sort}
+  array.sort do |a, b|
+    a.length <=> b.length
+  end
 end
 
 def swap_elements(array, pos1, pos2)
