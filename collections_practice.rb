@@ -24,3 +24,6 @@ def swap_elements(array, pos1, pos2)
   array[pos2] = temp
   array
 end
+
+def reverse_array(array)
+  
