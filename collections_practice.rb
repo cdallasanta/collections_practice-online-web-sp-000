@@ -13,3 +13,10 @@ def sort_array_desc(array)
     end
   end
 end
+
+def sort_array_char_count(array)
+  array.map {|item| item.sort}
+end
+
+def swap_elements(array)
+  
